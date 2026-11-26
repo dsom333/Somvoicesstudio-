@@ -20,7 +20,7 @@ jobs:
 
       - name: Extract Android project ZIP
         run: |
-          unzip -o SomVoiceStudio_Correct_Android_Builder.zip -d project
+          unzip -o SomVoiceStudio_Correct_Android_Builder-1.zip -d project
           cp -R project/. .
 
       - name: Build APK
